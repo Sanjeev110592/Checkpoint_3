@@ -48,3 +48,103 @@ table {
 }
 
 /* Custom styles */
+
+/* Basic styling */
+
+body{
+	/* background-color: aliceblue; */
+	box-shadow: 1px 1px 1px 2px aliceblue,-1px -1px 1px 2px aliceblue;
+	width: 90%;
+	margin: auto;
+}
+.flex{
+	display: flex;
+}
+
+/* Header */
+
+header.container{
+	width: 90%;
+	margin: auto;
+	/* padding: 10px 0px; */
+	/* background-color: rgb(5, 5, 56); */
+}
+header .first {
+	justify-content: space-between;
+	padding: 20px 100px;
+	background-color: rgb(5, 5, 56);
+}
+.first a{
+	margin-right: 20px;
+	color: white;
+	text-decoration: none;
+}
+header .second{
+	justify-content: space-between;
+	padding: 20px 100px;
+}
+.second a{	
+	margin-right: 20px;
+	color: black;
+	text-decoration: none;	
+}
+.second .btn{
+	color: white;
+}
+.btn{
+	display: inline-block;
+	background-color: red;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+}
+.bcgimg{
+	background-image: url("../media/hero/h1_hero.jpg");
+	width: 90%;
+	height: 500px;
+	margin: auto;
+	background-size: cover;
+	align-items: center;
+}
+.bcgimg p{
+	color: red;
+	font-size: 14px;
+}
+.bcgimg h1{
+	font-size: 36px;
+	font-weight: bolder;
+	width: 300px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.bcgimg div{
+	margin-left: 250px;
+}
+.intro{
+	width: 90%;
+	/* height: 400px; */
+	margin: auto;
+	background-color: rgb(213, 219, 224);
+}
+.intro .flex{
+	padding: 50px 290px;
+}
+.intr{
+	justify-content: space-around;
+}
+.intr div{
+	width: 260px;
+	margin-right: 0px;
+}
+.intr h2{
+	margin: 20px 0;
+	font-size: 24px;
+}
+.intr p{
+	font-size: 14px;
+	line-height: 20px;
+}
+.intr img{
+	width: 260px;
+}
