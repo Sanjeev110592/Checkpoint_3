@@ -128,7 +128,7 @@ header .second{
 	background-color: rgb(213, 219, 224);
 }
 .intro .flex{
-	padding: 50px 290px;
+	padding: 100px 290px;
 }
 .intr{
 	justify-content: space-around;
@@ -147,4 +147,97 @@ header .second{
 }
 .intr img{
 	width: 260px;
+}
+.teambcg{
+	background-image: url("../media/team/wetrusted.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 400px;
+	height: 350px;
+	border: 1px solid white;
+
+}
+.team{
+	padding: 100px 400px;
+}
+.team h2{
+	font-size: 28px;
+	font-weight: bolder;
+	width: 70%;
+}
+.teambcg div{
+	background-color: rgba(255,255,255,0.5);
+	height: 260px;
+	width: 370px;
+	padding: 30px;
+	margin-left: 350px;
+	margin-top: 50px;
+}
+.teambcg p{
+	font-size: 14px;
+	margin: 30px 0;
+}
+.services h1{
+	font-size: 36px;
+	font-weight: bolder;
+	text-align: center;
+}
+.parent{
+	padding: 100px 400px;
+	justify-content: space-between;	
+}
+.parent div{
+	width: 22%;
+}
+.i{
+	text-align: center;
+	font-size: 30px;
+
+}
+.parent h2{
+	font-size: 24px;
+	margin: 20px 0;
+}
+.text{
+	text-align: center;
+	font-size: 11px;
+}
+.more{
+	text-align: center;
+}
+.mo{
+	background-color: white;
+	border: 1px solid red;
+	color: red;
+}
+.seemore{
+	background-image: url("../media/case/completed_case_2.png");
+	background-size: 338px;
+	height: 350px;
+	width: 50%;
+	/* border: 1px solid black; */
+	/* background-repeat: no-repeat; */
+}
+.see div{
+	/* width: 50%; */
+	margin: 100px 0;
+	/* margin-left: 50px; */
+}
+.lft{
+	width: 30%;
+	padding: 50px 40px 0 280px;
+}
+.lft h2{
+	font-size: 24px;
+	font-weight: bolder;
+}
+.tex{
+	/* font-size: 15px; */
+	margin: 20px 0;
+}
+.new{
+	text-align: left;
+}
+.se{
+	margin: 100px 0;
 }
